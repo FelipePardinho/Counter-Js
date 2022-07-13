@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: 'Timer';
+    src: url('./DS-DIGI.TTF');
+}
+
+body{
+    background-color: rgb(15, 15, 15);
+    margin: 0;
+    padding: 0;
+}
+
+#visor{
+    display: flex;
+    justify-content: center;
+    font-family: 'Timer';
+    font-size: 140px;
+    color: #FFF;
+    margin: 0;
+    align-items: center;
+}
+
+#visor h5{
+    margin: 200px 0 80px 0 !important;
+}
+
+#controll{
+    display: flex;
+    justify-content: center;
+}
+
+#controll button{ 
+    padding: 10px 50px;
+    font-family: 'Poppins';
+    margin: 0 15px;
+    color: #FFF;
+    border: 5px solid #FFF;
+    border-radius: 3px;
+    background: transparent;
+    transition: 0.2s ease-in;
+}
+
+#controll button:hover{
+    background-color: rgb(26, 26, 26);
+    border: rgb(26, 26, 26) 5px solid;
+}
